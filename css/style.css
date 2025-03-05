@@ -1,0 +1,84 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+section {
+    height: 100vh;
+    position: relative;
+}
+
+#intro {
+    background-color: #000;
+}
+
+.rel {
+    max-width: 1440px;
+    margin: auto;
+    height: 100%;
+    position: relative;
+}
+
+.tit-wrap {
+    color: #fff;
+    text-align: left;
+}
+
+.tit-wrap p {
+    max-width: 50%;
+    margin-top: 20px;
+}
+
+section h2{
+    font-size: 60px;
+}
+
+#s1 .rel,
+#intro .rel {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    text-align: center;
+}
+
+.typo-wrap {
+    width: 500px;
+    height: 300px;
+    position: relative;
+}
+
+.typo-wrap span {
+    display: block;
+    font-size: 500px;
+    font-weight: 900;
+    text-shadow: 3px 3px 5px #0000006b;
+    position: absolute;
+    line-height: 500px;
+}
+
+.typo-wrap span.t1 {
+    color: greenyellow;
+    top: -100px;
+    z-index: 2;
+}
+.typo-wrap span.t2 {
+    color: rgb(255, 0, 170);
+    bottom: -100px;
+    right: 0;
+    z-index: 2;
+}
+.typo-wrap span.t3 {
+    color: rgb(98, 0, 255);
+    right: -100px;
+    z-index: 2;
+}
+
+#s1 { 
+    background-color: #646464;
+}
+
+#s1 .tit-wrap {
+    color: #000;
+    order:2;
+}
