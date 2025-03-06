@@ -1,0 +1,157 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+section {
+    height: 100vh;
+}
+
+ul, dl, ol {
+    list-style-type: none;
+}
+
+.img-wrap {
+    position: relative;
+}
+
+.rel {
+    max-width: 1440px;
+    margin: auto;
+    height: 100%;
+    position: relative;
+}
+
+.tit-wrap {
+    color: #fff;
+}
+
+header {
+    position: fixed;
+    z-index: 3;
+    color: #fff;
+    top: 0;
+    width: 100%;
+}
+
+header .rel {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+#s1 {
+    position: relative;
+    background-color: #b65757;
+}
+
+#s1 .rel {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    text-align: center;
+}
+
+#s1 .img-wrap {
+    width: 500px;
+    height: 600px;
+    background-color: aliceblue;
+    opacity: 0;
+}
+
+#s1 .img-wrap .name {
+    opacity: 0;
+    position: absolute;
+    bottom: 0;
+    left: -20px;
+    background-color: #000;
+    color: #fff;
+    padding: 20px 40px;
+    font-size: 20px;
+    transform: rotate(5deg);
+}
+
+.profile-wrap {
+    width: 800px;
+    display: flex;
+    flex-wrap: wrap;
+    gap: 20px;
+    text-align: left;
+}
+
+.pf-con {
+    width: 48%;
+    min-height: 250px;
+    background-color: #fff;
+}
+
+.pf-con h3 {
+    font-size: 30px;
+    border-bottom: 1px solid #ddd;
+    text-indent: 10px;
+    text-transform: capitalize;
+    font-size: 30px;
+    opacity: 0;
+}
+
+.pf-con dl{
+    display: flex;
+    flex-wrap: wrap;
+    padding-left: 20px;
+}
+
+.pf-con dl dt{
+    width: 30%;
+    padding: 10px 0;
+    font-weight: 700;
+    /* font-size: 13px; */
+    text-transform: capitalize;
+}
+
+.pf-con dl dd{
+    width: 70%;
+    padding: 10px 0;
+}
+
+.pf-con dl>* {
+    opacity: 0;
+}
+
+.skill-list {
+    padding-left: 20px;
+}
+
+.skill-list li {
+    display: flex;
+    align-items: center;
+    padding: 10px 0;
+}
+
+.skill-list li span {
+    display: block;
+    padding-right: 20px;
+    width: 30%;
+    font-weight: 700;
+}
+
+.pg-wrap {
+    background-color: #ddd;
+    width: 70%;
+    height: 15px;
+    border-radius: 15px;
+    position: relative;
+}
+
+.pg-wrap .pg{
+    background-color: rgb(161, 65, 54);
+    height: 10px;
+    position: absolute;
+    width: 0;
+    top: calc(50% -5px);
+    border-radius: 10px;
+}
+
+.skill-list li > * {
+    opacity: 0;
+}
