@@ -1,0 +1,51 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+section {
+    height: 100vh;
+    background-color: #eee;
+}
+
+section:nth-child(even){
+    background-color: #ffe3e3;
+}
+
+html {
+    font-size: 62.5%;
+}
+
+ul,
+dl,
+ol {
+    list-style: none;
+}
+
+a {
+    text-decoration: none;
+}
+
+.img-wrap {
+    position: relative;
+}
+
+.rel {
+    max-width: 160rem;
+    margin: auto;
+    height: 100%;
+    position: relative;
+}
+
+.tit-wrap {
+    color: #3b3b3b;
+}
+
+.tit-wrap h1 {
+    font-size: 6rem;
+}
+
+.tit-wrap p {
+    font-size: 1.8rem;
+}
